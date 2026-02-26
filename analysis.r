@@ -95,7 +95,6 @@ Plot.expression.by.cell.type <- ggplot(GSE60450.merge,
   )
 
 Plot.expression.by.cell.type
-
 ## Save the plot
 ### Show code for saving the plot with ggsave() or a similar function
 ggsave(
@@ -105,7 +104,3 @@ ggsave(
   height = 3,
   dpi = 300
 )
-
-
-
-
